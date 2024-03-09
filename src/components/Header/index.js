@@ -5,7 +5,7 @@ export default function Header() {
     <header className="px-3 py-5 p-md-5 mt-md-4">
       <Navbar expand="lg">
         <Container fluid>
-          <img src="./logo.png" alt="Logo Check Saúde Mental" className="navbar__logo position-absolute w-25" />
+          <img src="./logo.png" alt="Logo Check Saúde Mental" className="navbar__logo position-absolute " />
           <Nav className="mx-auto d-none gap-2 d-lg-flex">
             <Nav.Link href="#about" className="navbar__link">
               Sobre

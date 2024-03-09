@@ -4,5 +4,27 @@
 }
 
 .navbar__logo {
-  max-width: 12rem;
+  max-width: 7rem;
+}
+
+@media (min-width: 1024px) {
+  .navbar__logo {
+    max-width: 11rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .navbar__link {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  .navbar__link {
+    font-size: 2rem;
+  }
+  
+  .navbar__logo {
+    max-width: 100%;
+  }
 }
