@@ -1,0 +1,66 @@
+.about {
+  margin-top: 6.25rem;
+}
+
+.about small {
+  color: #1EDA8E;
+  font-size: 1.125rem;
+}
+
+.about h1 {
+  font-size: 3.75rem;
+}
+
+.about p {
+  font-size: 1.375rem;
+  max-width: 40ch;
+}
+
+.about a {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  background: linear-gradient(90deg, #1EDA8E 0%, #2FADEE 100%);
+}
+
+.about a:hover {
+  background: linear-gradient(90deg, #2FADEE 0%, #1EDA8E 100%);
+  box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 768px) {
+  .about {
+    margin-top: 0rem;
+  }
+
+  .about small {
+    color: #1EDA8E;
+    font-size: 0.75rem;
+  }
+  
+  .about h1 {
+    font-size: 2rem;
+    max-width: 20rem;
+  }
+  
+  .about p {
+    font-size: 0.75rem;
+    max-width: 30ch;
+  }
+
+  .about a {
+    font-size: 0.75rem
+  }
+}
+
+@media (max-width: 992px) {
+  .about {
+    margin-top: 1rem;
+  }
+  .about h1 {
+    max-width: 30rem;
+  }
+  .about p {
+    max-width: 40ch;
+  }
+}

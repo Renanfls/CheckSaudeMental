@@ -1,0 +1,8 @@
+.navbar__link:hover {
+  color: #1EDA8E;
+  font-weight: 600;
+}
+
+.navbar__logo {
+  max-width: 12rem;
+}
