@@ -1,27 +1,26 @@
-import { Nav, Navbar } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
 
 export default function Header() {
   return (
-    <header className="fixed-top px-5 py-1">
-      <Navbar collapseOnSelect expand="lg" variant="dark">
-        <img src="./Logo_HorizontalTextoEscuro_Transparente.png" className="navbar__logo" alt="Logo Check Saúde Mental" />
-        <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto my-2 d-flex align-items-sm-center navbar">
-            <Nav.Link href="#about" className="link">
+    <header className="px-3 py-5 p-md-5 mt-md-4">
+      <Navbar expand="lg">
+        <Container fluid>
+          <img src="./logo.png" alt="Logo Check Saúde Mental" className="navbar__logo position-absolute " />
+          <Nav className="mx-auto d-none gap-2 d-lg-flex">
+            <Nav.Link href="#about" className="navbar__link">
               Sobre
             </Nav.Link>
-            <Nav.Link href="#experiences" className="link">
+            <Nav.Link href="#experiences" className="navbar__link">
               Parceiros
             </Nav.Link>
-            <Nav.Link href="#projects" className="link">
+            <Nav.Link href="#products" className="navbar__link">
               Produtos
             </Nav.Link>
-            <Nav.Link href="#contact" className="link">
+            <Nav.Link href="#contact" className="navbar__link">
               Contato
             </Nav.Link>
           </Nav>
-        </Navbar.Collapse>
+        </Container>
       </Navbar>
     </header>
   );
