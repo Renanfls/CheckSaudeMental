@@ -9,11 +9,5 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   background: url('../public/assets/bgHome.jpg') no-repeat top center;
-  background-size: 115vw;
-}
-
-@media (max-width: 1200px) {
-  body {
-    background-size: 100vw;
-  }
+  background-size: 100vw;
 }

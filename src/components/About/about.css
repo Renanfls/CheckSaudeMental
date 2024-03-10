@@ -1,4 +1,4 @@
-.about small {
+.about span {
   color: #1EDA8E;
   font-size: 1.125rem;
 }
@@ -21,33 +21,31 @@
 }
 
 @media (max-width: 768px) {
-  .about {
-    margin-top: 0rem;
-  }
-
-  .about small {
-    font-size: 0.75rem;
+  .about span {
+    font-size: 0.6rem;
   }
   
   .about h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     max-width: 20rem;
   }
   
   .about p {
-    font-size: 0.75rem;
+    font-size: 0.6rem;
     max-width: 30ch;
   }
 
   .about a {
-    font-size: 0.75rem
+    font-size: 0.6rem
+  }
+
+  svg {
+    width: 12px;
+    height: 12px;
   }
 }
 
 @media (max-width: 992px) {
-  .about {
-    margin-top: 1rem;
-  }
   .about h1 {
     max-width: 30rem;
   }
@@ -58,17 +56,23 @@
 
 @media (min-width: 1024px) {
   .about {
-    margin-top: 6rem;
+    margin-top: 96px;
+    padding: 0 100px !important; 
   }
 
   .about h1 {
-    font-size: 3.75rem;
+    font-size: 3rem;
+  }
+
+  .about p {
+    font-size: 1rem;
   }
 }
 
 @media (min-width: 1400px) {
   .about {
     margin-top: 2rem;
+    padding: 100px !important; 
   }
 }
 
@@ -77,26 +81,26 @@
     margin-top: 14rem;
   }
 
-  .about small {
-    font-size: 2rem;
+  .about span {
+    font-size: 1.75rem;
   }
   
   .about h1 {
-    font-size: 6rem;
+    font-size: 5rem;
     max-width: 70rem;
   }
   
   .about p {
-    font-size: 2.5rem;
-    max-width: 35ch;
+    font-size: 1.75rem;
+    max-width: 50ch;
   }
 
   .about a {
-    font-size: 2rem
+    font-size: 1.75rem
   }
 
   svg {
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
   }
 }

@@ -1,26 +1,30 @@
 .container__parceiros {
-  background-repeat: no-repeat;
-  background-image: url(../../../public/assets/bgNossosParceiros.png);
+  background: url("../../../public/assets/bgNossosParceiros.png") no-repeat;
   background-size: cover;
-}
-
-.container__parceiros{
-  margin-top: 5rem;
 }
 
 .parceiros-card {
   display: flex;
   flex-wrap: wrap;
-  width: 258px;
+  width: 16.125rem;
+  justify-content: center;
+  padding: 36px !important;
 }
 
 .parceiros-card img {
-  width: 8.4rem;
+  width: 7rem;
+}
+
+.parceiros-card p {
+  text-align: center;
+  font-size: 0.90rem;
+  max-width: 20ch;
 }
 
 .parceiros-card a {
   color: #fff;
   font-weight: 500;
+  font-size: 0.90rem;
   text-decoration: none;
   background: linear-gradient(90deg, #1eda8e 0%, #2fadee 100%);
 }
@@ -37,4 +41,41 @@
 
 .parceiros__conteudo-titulo {
   max-width: 60ch;
+}
+
+@media (min-width: 1024px) {
+  .container__parceiros {
+    padding: 100px !important; 
+  }
+}
+
+@media (min-width: 2000px) {
+  .parceiros__conteudo span {
+    font-size: 1.75rem;
+  }
+
+  .parceiros__conteudo h2 {
+    font-size: 3rem;
+  }
+
+  .parceiros__conteudo p {
+    font-size: 1.75rem;
+    max-width: 60ch;
+  }
+
+  .parceiros-card {
+    width: 24rem;
+  }
+
+  .parceiros-card img {
+    width: auto;
+  }
+
+  .parceiros-card p {
+    font-size: 1.5rem;
+  }
+
+  .parceiros-card a {
+    font-size: 1.5rem;
+  }
 }

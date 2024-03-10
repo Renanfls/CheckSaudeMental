@@ -9,13 +9,18 @@
 
 @media (min-width: 1024px) {
   .navbar__logo {
-    max-width: 11rem;
+    max-width: 8rem;
   }
 }
 
 @media (min-width: 1400px) {
   .navbar__link {
-    font-size: 1.15rem;
+    font-size: 1rem;
+  }
+
+  .navbar__logo {
+    max-width: 14rem;
+    padding-left: 50px;
   }
 }
 
@@ -26,7 +31,6 @@
 
   .navbar__link {
     font-size: 1.75rem;
-    
   }
   
   .navbar__logo {

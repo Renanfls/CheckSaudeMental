@@ -1,8 +1,8 @@
 export default function Parceiros() {
   return (
-    <section className="container__parceiros container-fluid ms-3 ms-md-5 px-lg-5 pt-lg-5">
-      <div className="container__agrupados row row-cols-1 row-cols-xl-2 align-items-center">
-        <div className="parceiros__conteudo col mb-4 mb-md-0">
+    <section className="container__parceiros container-fluid px-4 px-md-5 py-5">
+      <div className="container__agrupados row row-cols-1 row-cols-xl-2 align-items-center gap-4 gap-xl-0">
+        <div className="parceiros__conteudo col">
           <span className="text-uppercase">nossos parceiros</span>
 
           <h2 className="parceiros__conteudo-titulo mt-1 fw-bold">
@@ -16,32 +16,32 @@ export default function Parceiros() {
           </p>
         </div>
 
-        <div className="container__cards  col mt-4 mt-lg-0">
-          <div className="row gap-3 justify-content-center justify-content-xl-evenly">
-            <div className="parceiros-card shadow p-4 rounded-5 col-6">
+        <div className="container__cards col">
+          <div className="row gap-4 gap-xl-5 justify-content-center ">
+            <div className="parceiros-card shadow p-4 rounded-5 col-6 gap-3">
               <img
                 className="img-fluid "
                 src="./assets/Hotmart-logo-02.svg"
                 alt="logo hortsmart"
               />
               <p className="my-3">Lorem Ipsum is simply dummy text of the</p>
-              <a href="/" className="p-2 px-3 rounded-5">
+              <a href="/" className="p-2 px-5 rounded-5">
                 saiba mais
               </a>
             </div>
 
-            <div className="parceiros-card shadow p-4 rounded-5 col-6">
+            <div className="parceiros-card shadow p-4 rounded-5 col-6 gap-3">
               <img src="./assets/eduzz-logo-01.svg" alt="logo eduzz" />
               <p className="my-3">Lorem Ipsum is simply dummy text of the</p>
-              <a href="/" className="p-2 px-3 rounded-5">
+              <a href="/" className="p-2 px-5 rounded-5">
                 saiba mais
               </a>
             </div>
 
-            <div className="parceiros-card shadow p-4 rounded-5 col-6">
+            <div className="parceiros-card shadow p-4 rounded-5 col-6 gap-3">
               <img src="./assets/kiwify-logo-03.svg" alt="logo kiwify" />
               <p className="my-3">Lorem Ipsum is simply dummy text of the</p>
-              <a href="/" className="p-2 px-3 rounded-5">
+              <a href="/" className="p-2 px-5 rounded-5">
                 saiba mais
               </a>
             </div>

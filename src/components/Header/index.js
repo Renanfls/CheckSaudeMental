@@ -2,7 +2,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 
 export default function Header() {
   return (
-    <header className="px-3 py-5 p-lg-5 m-md-5 mt-md-4">
+    <header className="px-4 px-md-5 py-5">
       <Navbar expand="lg">
         <Container fluid className="navbar">
           <img
