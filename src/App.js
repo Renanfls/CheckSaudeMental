@@ -9,8 +9,8 @@ export default function App() {
     <>
       <Header />
       <About />
-      <Parceiros />
       <SectionVideo />
+      <Parceiros />
     </>
   );
 }

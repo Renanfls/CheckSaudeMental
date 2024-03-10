@@ -1,6 +1,6 @@
 export default function SectionVideo() {
   return (
-    <section className="container-fluid sectionVideo p-4 py-5 p-md-5 d-flex flex-column flex-lg-row justify-content-between align-items-center gap-5">
+    <section className="container-fluid sectionVideo mt-5 p-4 py-5 p-md-5 d-flex flex-column flex-lg-row justify-content-between align-items-center gap-5">
       <iframe
         className="sectionVideo__video mx-3 rounded-4 bg-white"
         title="YouTube video player"
@@ -9,10 +9,10 @@ export default function SectionVideo() {
         allowfullscreen
       ></iframe>
       <div className="sectionVideo__text">
-        <h1 className="fw-bold">Lorem Ipsum is simply dummy text of the...</h1>
+        <h1 className="fw-bold">Lorem Ipsum is simply dummy text of the...</h1>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum is simply dummy text of the printing and
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum is simply dummy text of the printing and
           typesetting.
         </p>
       </div>
