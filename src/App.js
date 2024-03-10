@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Header from "./components/Header";
+import Parceiros from "./components/Parceiros"; 
 import "./index.css"
 
 export default function App() {
@@ -7,6 +8,7 @@ export default function App() {
     <>
       <Header />
       <About />
+      <Parceiros />
     </>
   );
 }
