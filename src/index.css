@@ -3,6 +3,7 @@
 @import './components/About/about.css';
 @import './components/SectionVideo/sectionVideo.css';
 @import './components/Parceiros/parceiros.css';
+@import './components/Footer/footer.css';
 
 body {
   color: #454545;

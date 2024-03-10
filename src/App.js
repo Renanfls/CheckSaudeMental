@@ -2,6 +2,7 @@ import About from "./components/About";
 import Header from "./components/Header";
 import Parceiros from "./components/Parceiros"; 
 import SectionVideo from "./components/SectionVideo"; 
+import Footer from "./components/Footer"; 
 import "./index.css"
 
 export default function App() {
@@ -11,6 +12,7 @@ export default function App() {
       <About />
       <SectionVideo />
       <Parceiros />
+      <Footer />
     </>
   );
 }
