@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap";
 
 export default function About() {
   return (
-    <Container className="about ms-3 ms-md-5 pt-lg-5">
+    <Container className="about ms-3 ms-md-5 px-lg-5 pt-lg-5">
       <small>Saúde mental e digital</small>
       <h1 className="fw-bold">
         Negócios

@@ -15,13 +15,18 @@
 
 @media (min-width: 1400px) {
   .navbar__link {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
   }
 }
 
 @media (min-width: 2000px) {
+  .navbar {
+    padding-top: 50px;
+  }
+
   .navbar__link {
-    font-size: 2rem;
+    font-size: 1.75rem;
+    
   }
   
   .navbar__logo {

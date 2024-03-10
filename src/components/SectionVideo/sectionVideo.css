@@ -75,6 +75,11 @@
     height: 21rem;
   }
 }
+@media (min-width: 768px) {
+  .sectionVideo__text {
+    margin: 0 6rem;
+  }
+}
 
 @media (min-width: 2000px) {
   .sectionVideo {
@@ -89,10 +94,9 @@
 
   .sectionVideo__text {
     max-width: 70ch;
-    margin: 0 6rem;
   }
 
-    .sectionVideo__text h1 {
+  .sectionVideo__text h1 {
     font-size: 4rem;
   }
 
