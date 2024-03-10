@@ -1,0 +1,46 @@
+footer {
+  background: linear-gradient(90deg, #1eda8e 0%, #2fadee 100%);
+  color: #fff;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer svg {
+  width: 1rem;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  footer {
+    padding: 100px !important;
+    height: 130px;
+  }
+
+  footer svg {
+    width: 1.25rem;
+    height: auto;
+  }
+}
+
+@media (min-width: 1400px) {
+  footer {
+    padding: 100px !important;
+    font-size: 1.10rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  footer {
+    font-size: 1.5rem;
+  }
+
+  footer svg {
+    width: 1.75rem;
+  }
+}
