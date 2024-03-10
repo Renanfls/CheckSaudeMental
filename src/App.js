@@ -1,10 +1,12 @@
 import Header from "./components/Header";
-import "./styles/base.css"
+import Parceiros from "./components/Parceiros"; 
+import "./index.css"
 
 export default function App() {
   return (
     <>
       <Header />
+      <Parceiros />
     </>
   );
 }
