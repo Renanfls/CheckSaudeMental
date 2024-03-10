@@ -1,6 +1,6 @@
 export default function Parceiros() {
   return (
-    <section className="container__parceiros container-fluid px-4 px-md-5 py-5">
+    <section id="parceiros" className="container__parceiros container-fluid px-4 px-md-5 py-5">
       <div className="container__agrupados row row-cols-1 row-cols-xl-2 align-items-center gap-4 gap-xl-0">
         <div className="parceiros__conteudo col">
           <span className="text-uppercase">nossos parceiros</span>

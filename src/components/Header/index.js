@@ -11,16 +11,16 @@ export default function Header() {
             className="navbar__logo position-absolute"
           />
           <Nav className="mx-auto d-none gap-2 d-lg-flex">
-            <Nav.Link href="#about" className="navbar__link">
+            <Nav.Link href="#sobre" className="navbar__link">
               Sobre
             </Nav.Link>
-            <Nav.Link href="#experiences" className="navbar__link">
-              Parceiros
-            </Nav.Link>
-            <Nav.Link href="#products" className="navbar__link">
+            <Nav.Link href="#produtos" className="navbar__link">
               Produtos
             </Nav.Link>
-            <Nav.Link href="#contact" className="navbar__link">
+            <Nav.Link href="#parceiros" className="navbar__link">
+              Parceiros
+            </Nav.Link>
+            <Nav.Link href="#contato" className="navbar__link">
               Contato
             </Nav.Link>
           </Nav>

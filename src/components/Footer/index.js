@@ -1,7 +1,10 @@
 export default function Footer() {
   return (
-    <footer className="d-flex flex-column flex-lg-row justify-content-lg-around align-items-center gap-4 p-5 px-4 px-md-5">
-      <a href="/" className="d-inline-flex">
+    <footer id="contato" className="d-flex flex-column flex-lg-row justify-content-lg-around align-items-center gap-4 p-5 px-4 px-md-5">
+      <a
+        href="https://www.instagram.com/check.saudemental"
+        className="d-inline-flex"
+      >
         <svg
           width="24"
           height="24"
@@ -33,7 +36,7 @@ export default function Footer() {
         </svg>
         <span className="ms-2">check.saudemental</span>
       </a>
-      <a href="/" className="d-inline-flex">
+      <a href="mailto:check.saudemental@gmail.com" className="d-inline-flex">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"

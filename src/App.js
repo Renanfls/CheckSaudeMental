@@ -1,4 +1,4 @@
-import About from "./components/About";
+import About from "./components/Home";
 import Header from "./components/Header";
 import Parceiros from "./components/Parceiros"; 
 import SectionVideo from "./components/SectionVideo"; 

@@ -1,8 +1,8 @@
 import { Container } from "react-bootstrap";
 
-export default function About() {
+export default function Home() {
   return (
-    <Container fluid className="about px-4 px-md-5 px-lg-5 pt-lg-5">
+    <Container fluid className="home px-4 px-md-5 px-lg-5 pt-lg-5">
       <span>Saúde mental e digital</span>
       <h1 className="fw-bold">
         Negócios
@@ -13,7 +13,7 @@ export default function About() {
         industry.
       </p>
       <a
-        href="#nossosProdutos"
+        href="#produtos"
         className="p-2 px-3 rounded-5 d-inline-flex align-items-center gap-5"
       >
         Nossos Produtos
