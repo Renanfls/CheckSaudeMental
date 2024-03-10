@@ -1,0 +1,40 @@
+.container__agrupados {
+  background-repeat: no-repeat;
+  background-image: url(../../../public/assets/bgNossosParceiros.png);
+  background-size: cover;
+}
+
+.container__parceiros{
+  margin-top: 5rem;
+}
+
+.parceiros-card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 258px;
+}
+
+.parceiros-card img {
+  width: 8.4rem;
+}
+
+.parceiros-card a {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  background: linear-gradient(90deg, #1eda8e 0%, #2fadee 100%);
+}
+
+.parceiros-card a:hover {
+  background: linear-gradient(90deg, #2fadee 0%, #1eda8e 100%);
+  box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+.parceiros__conteudo span {
+  color: #1eda8e;
+  font-size: 1.125rem;
+}
+
+.parceiros__conteudo-titulo {
+  max-width: 60ch;
+}
