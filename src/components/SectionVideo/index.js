@@ -1,20 +1,30 @@
 export default function SectionVideo() {
   return (
-    <section id="sobre" className="container-fluid sectionVideo mt-5 p-4 py-5 p-md-5 d-flex flex-column flex-lg-row justify-content-around align-items-center gap-5">
-      <iframe
-        className="sectionVideo__video mx-3 rounded-4 bg-white"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
-      ></iframe>
+    <section
+      id="sobre"
+      className="container-fluid sectionVideo mt-5 p-4 py-5 p-md-5 d-flex flex-column flex-lg-row justify-content-around align-items-center gap-5"
+    >
+      <video
+        className="sectionVideo__video mx-3 rounded-4 bg-white shadow"
+        controls
+        autoPlay={true}
+        loop
+        src="../assets/video.mp4"
+        typeof="video/mp4"
+      ></video>
       <div className="sectionVideo__text">
-        <h2 className="fw-bold">Lorem Ipsum is simply dummy text of the...</h2>
+        <span className="text-uppercase">Sobre nós</span>
+        <h2 className="fw-bold mt-2">
+          Check.SaúdeMental
+        </h2>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum is simply dummy text of the printing and
-          typesetting.
+          Nosso objetivo é Disponibilizar uma variedade de produtos digitais e físicos, cuidadosamente
+          selecionados para promover o seu bem-estar emocional e digital.
         </p>
+        <small>
+          "Sempre tem alguém que não vê o seu valor. Não permita que essa pessoa
+          seja você mesmo"
+        </small>
       </div>
     </section>
   );

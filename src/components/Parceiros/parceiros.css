@@ -49,6 +49,12 @@
   }
 }
 
+@media (min-width: 1400px) {
+  .parceiros__conteudo h2 {
+    max-width: 35ch;
+  }
+}
+
 @media (min-width: 2000px) {
   .parceiros__conteudo span {
     font-size: 1.75rem;

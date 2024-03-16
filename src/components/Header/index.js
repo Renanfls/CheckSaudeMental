@@ -14,7 +14,7 @@ export default function Header() {
             <Nav.Link href="#sobre" className="navbar__link">
               Sobre
             </Nav.Link>
-            <Nav.Link href="#produtos" className="navbar__link">
+            <Nav.Link href="#produtos" className="navbar__link disabled">
               Produtos
             </Nav.Link>
             <Nav.Link href="#parceiros" className="navbar__link">

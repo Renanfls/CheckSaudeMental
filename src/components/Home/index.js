@@ -9,14 +9,14 @@ export default function Home() {
         <br />& marketing digital
       </h1>
       <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry.
+        Descubra as melhores oportunidades e desfrute do mundo digital, tudo
+        reunido em um único lugar.
       </p>
       <a
-        href="#produtos"
+        href="#parceiros"
         className="p-2 px-3 rounded-5 d-inline-flex align-items-center gap-5"
       >
-        Nossos Produtos
+        Nossos Parceiros
         <svg
           width="16"
           height="16"
