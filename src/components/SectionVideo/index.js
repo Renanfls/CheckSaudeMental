@@ -1,4 +1,4 @@
-export default function SectionVideo() {
+export default function SectionVideo() { 
   return (
     <section
       id="sobre"
@@ -7,19 +7,18 @@ export default function SectionVideo() {
       <video
         className="sectionVideo__video mx-3 rounded-4 bg-white shadow"
         controls
-        autoPlay={true}
         loop
+        type="video/mp4"
+        poster="../assets/Logo_Vertical.png"
         src="../assets/video.mp4"
-        typeof="video/mp4"
       ></video>
       <div className="sectionVideo__text">
         <span className="text-uppercase">Sobre nós</span>
-        <h2 className="fw-bold mt-2">
-          Check.SaúdeMental
-        </h2>
+        <h2 className="fw-bold mt-2">Check.SaúdeMental</h2>
         <p>
-          Nosso objetivo é Disponibilizar uma variedade de produtos digitais e físicos, cuidadosamente
-          selecionados para promover o seu bem-estar emocional e digital.
+          Nosso objetivo é Disponibilizar uma variedade de produtos digitais e
+          físicos, cuidadosamente selecionados para promover o seu bem-estar
+          emocional e digital.
         </p>
         <small>
           "Sempre tem alguém que não vê o seu valor. Não permita que essa pessoa

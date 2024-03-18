@@ -8,6 +8,7 @@ export default function Footer() {
         href="https://www.instagram.com/check.saudemental"
         className="d-inline-flex"
         target="_blank"
+        rel="noreferrer"
       >
         <svg
           width="24"

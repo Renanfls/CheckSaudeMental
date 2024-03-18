@@ -1,8 +1,8 @@
 import { Container } from "react-bootstrap";
 
-export default function Home() {
+export default function About() {
   return (
-    <Container fluid className="home px-4 px-md-5 px-lg-5 pt-lg-5">
+    <Container fluid className="about px-4 px-md-5 px-lg-5 pt-lg-5 mt-0">
       <span>Saúde mental e digital</span>
       <h1 className="fw-bold">
         Negócios
@@ -12,11 +12,12 @@ export default function Home() {
         Descubra as melhores oportunidades e desfrute do mundo digital, tudo
         reunido em um único lugar.
       </p>
+
       <a
-        href="#parceiros"
+        href="#produtos"
         className="p-2 px-3 rounded-5 d-inline-flex align-items-center gap-5"
       >
-        Nossos Parceiros
+        Nossos Produtos
         <svg
           width="16"
           height="16"

@@ -36,6 +36,7 @@ export default function Parceiros() {
                 href="https://hotmart.com/pt-br"
                 className="p-2 px-5 rounded-5"
                 target="_blank"
+                rel="noreferrer"
               >
                 saiba mais
               </a>
@@ -49,6 +50,7 @@ export default function Parceiros() {
                 href="https://www.eduzz.com/pt-br"
                 className="p-2 px-5 rounded-5"
                 target="_blank"
+                rel="noreferrer"
               >
                 saiba mais
               </a>
@@ -64,6 +66,7 @@ export default function Parceiros() {
                 href="https://kiwify.com.br"
                 className="p-2 px-5 rounded-5"
                 target="_blank"
+                rel="noreferrer"
               >
                 saiba mais
               </a>
