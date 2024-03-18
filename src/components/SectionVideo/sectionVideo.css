@@ -4,7 +4,7 @@
 }
 
 .sectionVideo__video {
-  width: 100%;
+  width: 75%;
 }
 
 .sectionVideo__text {
@@ -36,12 +36,6 @@
 .sectionVideo__text h2,
 .sectionVideo__text p {
   color: #fdfdfd;
-}
-
-@media (min-width: 768px) {
-  .sectionVideo__video {
-    width: 50vw;
-  }
 }
 
 @media (min-width: 1024px) {

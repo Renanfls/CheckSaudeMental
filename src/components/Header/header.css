@@ -5,6 +5,8 @@
 
 .navbar__logo {
   max-width: 7rem;
+  left: 0;
+  top: 0;
 }
 
 @media (min-width: 1024px) {

@@ -14,7 +14,26 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Check Saúde Mental</title>
   </head>
-  <script async src="https://assets.locaweb.com.br/cliclead/javascript/widget.min.js" widget-customer-id="c755a638-c570-4496-8f1e-b744b8f0b5c1"></script>
+  <!-- Google Analytics -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-V94XD7J2RL"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-V94XD7J2RL");
+  </script>
+  <!-- Botão LocaWEB WhatsApp -->
+  <script
+    async
+    src="https://assets.locaweb.com.br/cliclead/javascript/widget.min.js"
+    widget-customer-id="c755a638-c570-4496-8f1e-b744b8f0b5c1"
+  ></script>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>

@@ -1,0 +1,46 @@
+.container-product a {
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.90rem;
+  text-decoration: none;
+  background: linear-gradient(90deg, #1EDA8E 0%, #2FADEE 100%);
+}
+
+.container-product a:hover {
+  background: linear-gradient(90deg, #2fadee 0%, #1eda8e 100%);
+  box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+.container-product .photos {
+  object-fit: contain;
+  height: 200px;
+}
+
+.container-product .logo {
+  width: 40%;
+  height: auto;
+}
+
+.container-product .user {
+  font-size: 10px
+}
+
+.title-product {
+  font-size: 16px;
+}
+
+.price {
+  color: #2fadee;
+}
+
+@media (min-width: 768px) {
+  .container-product {
+    width: 225px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-product {
+    height: auto;
+  }
+}
