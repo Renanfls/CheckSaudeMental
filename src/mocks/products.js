@@ -610,7 +610,7 @@ const products = {
           background:
             "https://cdn.eduzzcdn.com/myeduzz/upload/df/67/df6726ac0a0144a495bc97534f255cc3",
           logo: "../../assets/eduzz-logo-01.svg",
-          user: "",
+          user: "Iara Fonseca",
           title: "27 dias para aumentar seu amor próprio",
           value: "19,90",
           link: "https://chk.eduzz.com/733022?a=72352725",
@@ -1132,8 +1132,6 @@ const products = {
           link: "https://kiwify.app/ahUCuk6?afid=dmoiK3xG",
         },
       ],
-
-
     },
   ],
 };

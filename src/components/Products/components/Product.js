@@ -13,7 +13,7 @@ function Projects({
         <img src={logo} alt={logo} className="logo" />
         <small className="user mt-1 fw-light text-lowercase">{user}</small>
       </div>
-      <h5 className="title-product fw-medium my-3 h-100 text-lowercase text-center">
+      <h5 className="title-product fw-medium my-3 h-100 text-lowercase text-center ">
         {title}
       </h5>
       <p className="price fw-bold fs-5 text-center">R$ {value}</p>
