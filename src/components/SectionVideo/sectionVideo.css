@@ -4,11 +4,11 @@
 }
 
 .sectionVideo__video {
-  width: 75%;
+  width: 100%;
 }
 
 .sectionVideo__text {
-  max-width: 40ch;
+  max-width: 55ch;
 }
 
 .sectionVideo__text span {
@@ -38,10 +38,20 @@
   color: #fdfdfd;
 }
 
+@media (min-width: 768px) {
+  .sectionVideo__video {
+    width: 75%;
+  }
+}
+
 @media (min-width: 1024px) {
   .sectionVideo {
     margin-top: 100px !important;
     padding: 100px !important;
+  }
+
+  .sectionVideo__video {
+    width: 50%;
   }
 
   .sectionVideo__text {

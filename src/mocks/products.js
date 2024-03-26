@@ -1,7 +1,7 @@
 const products = {
   highlight: [
     {
-      hotmart: [
+      all: [
         {
           id: 4,
           background:
@@ -10,6 +10,7 @@ const products = {
           user: "oficialrefugio",
           title: "21-metodos-naturais-para-ansiedade",
           value: "57,90",
+          parcel: "ou 8x de R$ 8,08",
           link: "https://go.hotmart.com/Y91735343S",
         },
         {
@@ -20,6 +21,7 @@ const products = {
           user: "BIANCA M. L. SANTOS",
           title: "Domine o Tempo",
           value: "97,00",
+          parcel: "ou 7x de R$ 15,50",
           link: "https://go.hotmart.com/F91735246U",
         },
         {
@@ -31,6 +33,7 @@ const products = {
           title:
             "Respire e Viva: Um guia prático para vencer a depressão e encontrar o caminho para uma vida mais leve",
           value: "50,00",
+          parcel: "ou 5x de R$ 10,88",
           link: "https://go.hotmart.com/W91735280T",
         },
         {
@@ -41,6 +44,7 @@ const products = {
           user: "DENIS OLIVEIRA DE CARVALHO",
           title: "Jornada da liberdade emocional",
           value: "197,00",
+          parcel: "ou 12x de R$ 19,66",
           link: "https://go.hotmart.com/B91735252A",
         },
         {
@@ -51,6 +55,7 @@ const products = {
           user: "André Tomé",
           title: "Método: Desvendando o Complexo da Ansiedade",
           value: "77,00",
+          parcel: "ou 11x de R$ 8,27",
           link: "https://go.hotmart.com/R91735332N?dp=1",
         },
         {
@@ -73,8 +78,6 @@ const products = {
           value: "12,99",
           link: "https://go.hotmart.com/R91734872S?dp=1",
         },
-      ],
-      eduzz: [
         {
           id: 33,
           background:
@@ -83,6 +86,7 @@ const products = {
           user: "Livraria OFICIAL",
           title: "Os Códigos Do Mindset Da Prosperidade - Pablo Marçal",
           value: "98,00",
+          parcel: "ou 12x de R$ 9,80",
           link: "https://chk.eduzz.com/1274742?a=72352725",
         },
         {
@@ -94,6 +98,7 @@ const products = {
           title:
             "Livro Físico: Educação Emocional Positiva - O Olhar de quem Faz - Frete Grátis",
           value: "54,40",
+          parcel: "ou 12x de R$ 5,44",
           link: "https://chk.eduzz.com/679003?a=72352725",
         },
         {
@@ -104,6 +109,7 @@ const products = {
           user: "Livraria OFICIAL",
           title: "O milagre da manhã",
           value: "69,00",
+          parcel: "ou 12x de R$ 6,90",
           link: "https://sun.eduzz.com/1316205?a=72352725",
         },
         {
@@ -114,6 +120,7 @@ const products = {
           user: "Hélio Redondo",
           title: "E-book Sistema Nervoso Central e as Doenças Neurológicas",
           value: "47,00",
+          parcel: "ou 9x de R$ 5,22",
           link: "https://chk.eduzz.com/1817204?a=72352725",
         },
         {
@@ -124,6 +131,7 @@ const products = {
           user: "Jideon F. Marques",
           title: "Psicologia Negra e Manipulação: 2 em 1",
           value: "99,99",
+          parcel: "ou 12x de R$ 10,00",
           link: "https://chk.eduzz.com/2197175?a=72352725",
         },
         {
@@ -134,6 +142,7 @@ const products = {
           user: "Jideon F. Marques",
           title: "Controle mental 4 livros em 1",
           value: "80,00",
+          parcel: "ou 12x de R$ 8,00",
           link: "https://chk.eduzz.com/1958900?a=72352725",
         },
         {
@@ -144,10 +153,9 @@ const products = {
           user: "Jussara Márcia vieira Flois",
           title: "QUERO DIVÓRCIO - ME SAPARANDO DA ANSIEDADE",
           value: "147,00",
+          parcel: "ou 12x de R$ 14,70",
           link: "https://chk.eduzz.com/2044553?a=72352725",
         },
-      ],
-      kiwify: [
         {
           id: 78,
           background:
@@ -156,6 +164,7 @@ const products = {
           user: "psicanalisandose",
           title: "1.200 perguntas para o setting terapêutico",
           value: "97,00",
+          parcel: "ou 12x de R$ 9,74",
           link: "https://kiwify.app/gexESfe?afid=W0aiu1R9",
         },
         {
@@ -166,6 +175,7 @@ const products = {
           user: "filtrodamente",
           title: "Manual Autoconhecimento",
           value: "34,90",
+          parcel: "ou 7x de R$ 5,60",
           link: "https://kiwify.app/nLSyxTu?afid=Hjxqu6gz",
         },
         {
@@ -176,6 +186,7 @@ const products = {
           user: "euagradecendo",
           title: "MANUAL DA GRATIDÃO + 12 Bônus",
           value: "47,90",
+          parcel: "ou 9x de R$ 6,15",
           link: "https://kiwify.app/vYKlIyK?afid=ZrLZA6b9",
         },
         {
@@ -186,6 +197,7 @@ const products = {
           user: "Júnior Araujo",
           title: "Ansiedade x Deus",
           value: "19,90",
+          parcel: "ou 4x de R$ 5,35",
           link: "https://pay.kiwify.com.br/Yvp5CiR?afid=QZlgvBbg",
         },
         {
@@ -196,6 +208,7 @@ const products = {
           user: "charleshspurgeon",
           title: "Cural da Alma",
           value: "35,00",
+          parcel: "ou 7x de R$ 5,62",
           link: "https://kiwify.app/1e7gOSP?afid=3hKdNZKp",
         },
         {
@@ -206,6 +219,7 @@ const products = {
           user: "reconquisteem7dias",
           title: "O Segredo da Reconquista",
           value: "47,00",
+          parcel: "ou 11x de R$ 5,08",
           link: "https://kiwify.app/LREYDfo?afid=TEONT6XZ",
         },
         {
@@ -216,6 +230,7 @@ const products = {
           user: "sociedadepsicanalitica",
           title: "Curso - PSICANÁLISE EXPERIENCE",
           value: "197,00",
+          parcel: "ou 12x de R$ 19,78",
           link: "https://kiwify.app/ahUCuk6?afid=dmoiK3xG",
         },
       ],
@@ -252,6 +267,7 @@ const products = {
           user: "WANDERSON ADRIANO OLIVEIRA SILVA",
           title: "115 Livros digitais pelo preço de 1",
           value: "16,90",
+          parcel: "ou 2x de R$ 8,82",
           link: "https://go.hotmart.com/J91735265Q",
         },
         {
@@ -262,6 +278,7 @@ const products = {
           user: "oficialrefugio",
           title: "21-metodos-naturais-para-ansiedade",
           value: "57,90",
+          parcel: "ou 8x de R$ 8,08",
           link: "https://go.hotmart.com/Y91735343S",
         },
         {
@@ -272,6 +289,7 @@ const products = {
           user: "Cleiciane Vieira",
           title: "30 DIAS PARA SE LIBERTAR DE UM NARCISISTA PERVERSO",
           value: "34,90",
+          parcel: "ou 4x de R$ 9,36",
           link: "https://go.hotmart.com/F91735230K",
         },
         {
@@ -302,6 +320,7 @@ const products = {
           user: "Nova Era Recursos Terapêuticos",
           title: "Combo Inteligência Emocional na Escola",
           value: "29,90",
+          parcel: "ou 4x de R$ 7,48",
           link: "https://go.hotmart.com/A91735259R",
         },
         {
@@ -322,6 +341,7 @@ const products = {
           user: "Cristiano Moraes",
           title: "Da Ansiedade Para A Luz",
           value: "45,90",
+          parcel: "ou 6x de R$ 8,44",
           link: "https://go.hotmart.com/K91735322M",
         },
         {
@@ -331,6 +351,7 @@ const products = {
           user: "ecormerce digital",
           title: "Depressão na adolescência",
           value: "29,90",
+          parcel: "ou 3x de R$ 10,55",
           link: "https://go.hotmart.com/D91735295P",
         },
         {
@@ -341,6 +362,7 @@ const products = {
           user: "Guilherme Araújo",
           title: "Derrotando a ansiedade - Ebook Completo",
           value: "29,99",
+          parcel: "ou 4x de R$ 8,05",
           link: "https://go.hotmart.com/R91735286F",
         },
         {
@@ -372,6 +394,7 @@ const products = {
           user: "BIANCA M. L. SANTOS",
           title: "Domine o Tempo",
           value: "97,00",
+          parcel: "ou 7x de R$ 15,50",
           link: "https://go.hotmart.com/F91735246U",
         },
         {
@@ -383,6 +406,7 @@ const products = {
           title:
             "Respire e Viva: Um guia prático para vencer a depressão e encontrar o caminho para uma vida mais leve",
           value: "50,00",
+          parcel: "ou 5x de R$ 10,88",
           link: "https://go.hotmart.com/W91735280T",
         },
         {
@@ -393,6 +417,7 @@ const products = {
           user: "Maurício Martins Nunes",
           title: "Em primeiro lugar, aprenda a se amar",
           value: "49,90",
+          parcel: "ou 6x de R$ 9,18",
           link: "https://go.hotmart.com/X91735335K",
         },
         {
@@ -403,6 +428,7 @@ const products = {
           user: "Marcos Costa",
           title: "Estimulação Cognitiva da atenção",
           value: "27,00",
+          parcel: "ou 3x de R$ 9,53",
           link: "https://go.hotmart.com/X91735338E",
         },
         {
@@ -413,6 +439,7 @@ const products = {
           user: "DENIS OLIVEIRA DE CARVALHO",
           title: "Jornada da liberdade emocional",
           value: "197,00",
+          parcel: "ou 12x de R$ 19,66",
           link: "https://go.hotmart.com/B91735252A",
         },
         {
@@ -423,6 +450,7 @@ const products = {
           user: "Instituto Performa",
           title: "Libertação | O Fim Das Feridas Emocionais",
           value: "47,00",
+          parcel: "ou 6x de R$ 8,64",
           link: "https://go.hotmart.com/O91735203V",
         },
         {
@@ -433,6 +461,7 @@ const products = {
           user: "Luiz Henrique Godinho de Souza",
           title: "Linguagem Corporal",
           value: "23,50",
+          parcel: "ou 3x de R$ 8,29",
           link: "https://go.hotmart.com/S91735267B",
         },
         {
@@ -443,6 +472,7 @@ const products = {
           user: "André Tomé",
           title: "Método: Desvendando o Complexo da Ansiedade",
           value: "77,00",
+          parcel: "ou 11x de R$ 8,27",
           link: "https://go.hotmart.com/R91735332N?dp=1",
         },
         {
@@ -463,6 +493,7 @@ const products = {
           logo: "../../assets/Hotmart-logo-02.svg",
           user: "caiocesar220",
           value: "59,90",
+          parcel: "ou 8x de R$ 8,49",
           link: "https://go.hotmart.com/H91735364W",
         },
         {
@@ -473,6 +504,7 @@ const products = {
           user: "Edt Ramos",
           title: "PROTOCOLO ZERO ANSIEDADE",
           value: "29,90",
+          parcel: "ou 3x de R$ 10,55",
           link: "https://go.hotmart.com/E91735305L?dp=1",
         },
         {
@@ -493,6 +525,7 @@ const products = {
           user: "Sobreautoestima",
           title: "Sobre Autoestima e Amor Próprio",
           value: "29,90",
+          parcel: "ou 3x de R$ 10,55",
           link: "https://hotmart.com/pt-br/marketplace/produtos/sobreautoestimaeamorproprio/O44570921M?ref=F91735347E",
         },
         {
@@ -503,6 +536,7 @@ const products = {
           user: "Alexsandro Schmidt",
           title: "Sua Mente Mais Saudável",
           value: "45,00",
+          parcel: "ou 6x de R$ 8,28",
           link: "https://go.hotmart.com/G91735217V",
         },
         {
@@ -523,6 +557,7 @@ const products = {
           user: "João Pedro",
           title: "Vencendo a ansiedade",
           value: "29,90",
+          parcel: "ou 3x de R$ 10,55",
           link: "https://go.hotmart.com/I91735273O",
         },
         {
@@ -532,6 +567,7 @@ const products = {
           user: "Núcleo mental",
           title: "Os códigos do sono e Vencendo as barreiras da ansiedade",
           value: "37,90",
+          parcel: "ou 5x de R$ 8,25",
           link: "https://go.hotmart.com/P91735302J",
         },
         {
@@ -542,6 +578,7 @@ const products = {
           user: "Livraria OFICIAL",
           title: "Os Códigos Do Mindset Da Prosperidade - Pablo Marçal",
           value: "98,00",
+          parcel: "ou 12x de R$ 9,80",
           link: "https://chk.eduzz.com/1274742?a=72352725",
         },
         {
@@ -553,6 +590,7 @@ const products = {
           title:
             "Livro Físico: Educação Emocional Positiva - O Olhar de quem Faz - Frete Grátis",
           value: "54,40",
+          parcel: "ou 12x de R$ 5,44",
           link: "https://chk.eduzz.com/679003?a=72352725",
         },
         {
@@ -563,6 +601,7 @@ const products = {
           user: "Livraria OFICIAL",
           title: "O milagre da manhã",
           value: "69,00",
+          parcel: "ou 12x de R$ 6,90",
           link: "https://sun.eduzz.com/1316205?a=72352725",
         },
         {
@@ -573,6 +612,7 @@ const products = {
           user: "Augusto Cury",
           title: "A Fascinante construção do eu",
           value: "10,00",
+          parcel: "ou 2x de R$ 5,00",
           link: "https://chk.eduzz.com/2200582?a=72352725",
         },
         {
@@ -583,6 +623,7 @@ const products = {
           user: "Evelen Silva",
           title: "Derrotando a insônia",
           value: "9,99",
+          parcel: "ou 2x de R$ 5,22",
           link: "https://chk.eduzz.com/2227906?a=72352725",
         },
         {
@@ -593,6 +634,7 @@ const products = {
           user: "Gisele Martins",
           title: "Método Mulher Próspera",
           value: "19,90",
+          parcel: "ou 4x de R$ 5,34",
           link: "https://chk.eduzz.com/2017485?a=72352725",
         },
         {
@@ -603,6 +645,7 @@ const products = {
           user: "Josue brito pinheiro sousa",
           title: "O Poder da ação",
           value: "19,90",
+          parcel: "ou 4x de R$ 5,39",
           link: "https://chk.eduzz.com/2112889?a=72352725",
         },
         {
@@ -613,6 +656,7 @@ const products = {
           user: "",
           title: "27 dias para aumentar seu amor próprio",
           value: "19,90",
+          parcel: "ou 4x de R$ 5,34",
           link: "https://chk.eduzz.com/733022?a=72352725",
         },
         {
@@ -623,6 +667,7 @@ const products = {
           user: "Priscila Roel",
           title: "ConscienteMente - Mude seu mundo, Destrave sua Mente",
           value: "21,90",
+          parcel: "ou 4x de R$ 5,88",
           link: "https://chk.eduzz.com/737664?a=72352725",
         },
         {
@@ -633,6 +678,7 @@ const products = {
           user: "Douglas Henrique de Oliveira",
           title: "As 5 Faces da Dependência Emocional - 1 edição.",
           value: "14,90",
+          parcel: "ou 3x de R$ 5,26",
           link: "https://chk.eduzz.com/1579345?a=72352725",
         },
         {
@@ -643,6 +689,7 @@ const products = {
           user: "Jideon F. Marques",
           title: "Como Reprogramar sua mente para ter sucesso",
           value: "20,00",
+          parcel: "ou 4x de R$ 5,37",
           link: "https://chk.eduzz.com/2094803?a=72352725",
         },
         {
@@ -654,6 +701,7 @@ const products = {
           title:
             "Entendendo e Superando a Dependência Emocional: Torne-se o Arquiteto da Sua Felicidade",
           value: "22,99",
+          parcel: "ou 5x de R$ 5,06",
           link: "https://chk.eduzz.com/2143147?a=72352725",
         },
         {
@@ -665,6 +713,7 @@ const products = {
           title:
             "E-book Despertando sua força interior - Desenvolva sua Autoestima como mulher.",
           value: "19,99",
+          parcel: "ou 4x de R$ 5,37",
           link: "https://chk.eduzz.com/2003836?a=72352725",
         },
         {
@@ -675,6 +724,7 @@ const products = {
           user: "Ana. C. BULBOW",
           title: "Crise de ansiedade. RELATO, DICAS E AJUDA!",
           value: "45,00",
+          parcel: "ou 10x de R$ 5,25",
           link: "https://chk.eduzz.com/2044355?a=72352725",
         },
         {
@@ -685,6 +735,7 @@ const products = {
           user: "Hélio Redondo",
           title: "E-book Sistema Nervoso Central e as Doenças Neurológicas",
           value: "47,00",
+          parcel: "ou 9x de R$ 5,22",
           link: "https://chk.eduzz.com/1817204?a=72352725",
         },
         {
@@ -695,6 +746,7 @@ const products = {
           user: "Wilman Mello",
           title: "Superando Desafios: 10 E-books para Transformar a Sua Vida",
           value: "29,90",
+          parcel: "ou 6x de R$ 5,57",
           link: "https://chk.eduzz.com/2116642?a=72352725",
         },
         {
@@ -705,6 +757,7 @@ const products = {
           user: "Jideon F. Marques",
           title: "Psicologia Negra e Manipulação: 2 em 1",
           value: "99,99",
+          parcel: "ou 12x de R$ 10,00",
           link: "https://chk.eduzz.com/2197175?a=72352725",
         },
         {
@@ -715,6 +768,7 @@ const products = {
           user: "Lolrian Produtos Digitais",
           title: "A Felicidade Começa com Você - E-book",
           value: "19,99",
+          parcel: "ou 4x de R$ 5,00",
           link: "https://chk.eduzz.com/1124704?a=72352725",
         },
         {
@@ -725,6 +779,7 @@ const products = {
           user: "James C. Hunter",
           title: "O Monge e o Executivo",
           value: "19,90",
+          parcel: "ou 3x de R$ 6,63",
           link: "https://chk.eduzz.com/42511?a=72352725",
         },
         {
@@ -735,6 +790,7 @@ const products = {
           user: "Jideon F. Marques",
           title: "Controle mental 4 livros em 1",
           value: "80,00",
+          parcel: "ou 12x de R$ 8,00",
           link: "https://chk.eduzz.com/1958900?a=72352725",
         },
         {
@@ -745,6 +801,7 @@ const products = {
           user: "Felipe F. Oliveira",
           title: "COMO VENCER AS TRISTEZAS - O Livro",
           value: "27,00",
+          parcel: "ou 5x de R$ 5,88",
           link: "https://chk.eduzz.com/1870412?a=72352725",
         },
         {
@@ -756,6 +813,7 @@ const products = {
           title:
             "Como superar a ansiedade no trabalho: um guia prático para encontrar equilíbrio e bem-estar",
           value: "67,00",
+          parcel: "ou 12x de R$ 6,70",
           link: "https://chk.eduzz.com/1891175?a=72352725",
         },
         {
@@ -766,6 +824,7 @@ const products = {
           user: "Saves.time",
           title: "QUEM- PENSA ENRIQUECE -[Think and Grow Rich]",
           value: "9,90",
+          parcel: "ou 2x de R$ 5,17",
           link: "https://chk.eduzz.com/1407937?a=72352725",
         },
         {
@@ -776,6 +835,7 @@ const products = {
           user: "Jussara Márcia vieira Flois",
           title: "QUERO DIVÓRCIO - ME SAPARANDO DA ANSIEDADE",
           value: "147,00",
+          parcel: "ou 12x de R$ 14,70",
           link: "https://chk.eduzz.com/2044553?a=72352725",
         },
         {
@@ -786,6 +846,7 @@ const products = {
           user: "eduzzmilgrau",
           title: "EMPATIA PSÍQUICA 5 LIVROS EM 1",
           value: "50,00",
+          parcel: "ou 12x de R$ 5,00",
           link: "https://chk.eduzz.com/2235242?a=72352725",
         },
         {
@@ -796,6 +857,7 @@ const products = {
           user: "Jideon F. Marques",
           title: "101 maneira de acalmar a ansiedade e parar o pânico",
           value: "20,00",
+          parcel: "ou 4x de R$ 5,37",
           link: "https://chk.eduzz.com/2093810?a=72352725",
         },
         {
@@ -806,6 +868,7 @@ const products = {
           user: "kaiky baiao",
           title: "Sete táticas para reconquistar o controle da sua vida",
           value: "47,00",
+          parcel: "ou 9x de R$ 5,22",
           link: "https://chk.eduzz.com/1980336?a=72352725",
         },
         {
@@ -817,6 +880,7 @@ const products = {
           title:
             "Livro - Mais esperto que o diabo - O mistério revelado da liberdade e do sucesso",
           value: "10,00",
+          parcel: "ou 2x de R$ 5,00",
           link: "https://chk.eduzz.com/1904082?a=72352725",
         },
         {
@@ -838,6 +902,7 @@ const products = {
           title:
             "E-Book - Aprenda técnicas para controlar altos niveis de Ansiedade",
           value: "27,00",
+          parcel: "ou 5x de R$ 5,88",
           link: "https://chk.eduzz.com/2047128?a=72352725",
         },
         {
@@ -848,6 +913,7 @@ const products = {
           user: "Adryano",
           title: "Manual da mente",
           value: "17,90",
+          parcel: "ou 3x de R$ 6,32",
           link: "https://chk.eduzz.com/2223491?a=72352725",
         },
         {
@@ -858,6 +924,7 @@ const products = {
           user: "Renata Geist",
           title: "5 Maneiras Fáceis de Impulsionar sua Inteligência Emocional",
           value: "9,99",
+          parcel: "ou 2x de R$ 5,00",
           link: "https://chk.eduzz.com/2222408?a=72352725",
         },
         {
@@ -868,6 +935,7 @@ const products = {
           user: "Alan Silva",
           title: "10 segredos para vencer a baixa autoestima",
           value: "9,90",
+          parcel: "ou 2x de R$ 5,17",
           link: "https://chk.eduzz.com/1797842?a=72352725",
         },
         {
@@ -878,6 +946,7 @@ const products = {
           user: "Oziane Santos brito",
           title: "Desperte o seu PODER interior",
           value: "14,90",
+          parcel: "ou 3x de R$ 5,30",
           link: "https://chk.eduzz.com/2257699?a=72352725",
         },
         {
@@ -888,6 +957,7 @@ const products = {
           user: "Mari Zanella",
           title: "Meditação para Iniciantes",
           value: "27,00",
+          parcel: "ou 5x de R$ 5,88",
           link: "https://chk.eduzz.com/1988641?a=72352725",
         },
         {
@@ -898,6 +968,7 @@ const products = {
           user: "Rízia Santos",
           title: "Técnicas Infalíveis para melhorar a concentração no trabalho",
           value: "20,00",
+          parcel: "ou 4x de R$ 5,37",
           link: "https://chk.eduzz.com/1970385?a=72352725",
         },
         {
@@ -908,6 +979,7 @@ const products = {
           user: "Lety Assis",
           title: "SOS Mulheres que Amam Demais",
           value: "14,90",
+          parcel: "ou 3x de R$ 5,26",
           link: "https://chk.eduzz.com/776738?a=72352725",
         },
         {
@@ -918,6 +990,7 @@ const products = {
           user: "Carem Tatiane Dunck",
           title: "A felicidade começa com você",
           value: "37,90",
+          parcel: "ou 8x de R$ 5,38",
           link: "https://chk.eduzz.com/1873722?a=72352725",
         },
         {
@@ -928,6 +1001,7 @@ const products = {
           user: "Camila Dos Santos Pereira",
           title: "SEGREDOS PARA HACKEAR A MENTE",
           value: "39,90",
+          parcel: "ou 9x de R$ 5,11",
           link: "https://chk.eduzz.com/1939521?a=72352725",
         },
         {
@@ -938,6 +1012,7 @@ const products = {
           user: "Letícia",
           title: "Livro - O poder da ação | Paulo Vieira",
           value: "15,00",
+          parcel: "ou 3x de R$ 5,00",
           link: "https://chk.eduzz.com/1890741?a=72352725",
         },
         {
@@ -948,6 +1023,7 @@ const products = {
           user: "Julianne",
           title: "Reiventando-se: a arte de se desenvolver e crescer",
           value: "19,90",
+          parcel: "ou 4x de R$ 5,34",
           link: "https://chk.eduzz.com/1878964?a=72352725",
         },
         {
@@ -958,6 +1034,7 @@ const products = {
           user: "Agatha Lee Harper",
           title: "E-book O sucesso começa dentro de você",
           value: "24,99",
+          parcel: "ou 5x de R$ 5,44",
           link: "https://chk.eduzz.com/1684204?a=72352725",
         },
         {
@@ -967,7 +1044,8 @@ const products = {
           logo: "../../assets/eduzz-logo-01.svg",
           user: "Leonardo Cabral",
           title: "SUPERE A ANSIEDADE",
-          value: "47,90",
+          value: "29,90",
+          parcel: "ou 6x de R$ 5,51",
           link: "https://chk.eduzz.com/2062605?a=72352725",
         },
         {
@@ -978,6 +1056,7 @@ const products = {
           user: "Erick",
           title: "Controlando a ansiedade",
           value: "19,90",
+          parcel: "ou 4x de R$ 5,34",
           link: "https://chk.eduzz.com/1836486?a=72352725",
         },
         {
@@ -988,6 +1067,7 @@ const products = {
           user: "Saves.time",
           title: "+ De 200 Livros em Ebook",
           value: "14,90",
+          parcel: "ou 2x de R$ 7,45",
           link: "https://chk.eduzz.com/1410744?a=72352725",
         },
         {
@@ -998,6 +1078,7 @@ const products = {
           user: "psicanalisandose",
           title: "1.200 perguntas para o setting terapêutico",
           value: "97,00",
+          parcel: "ou 12x de R$ 9,74",
           link: "https://kiwify.app/gexESfe?afid=W0aiu1R9",
         },
         {
@@ -1008,6 +1089,7 @@ const products = {
           user: "filtrodamente",
           title: "Manual Autoconhecimento",
           value: "34,90",
+          parcel: "ou 7x de R$ 5,60",
           link: "https://kiwify.app/nLSyxTu?afid=Hjxqu6gz",
         },
         {
@@ -1018,6 +1100,7 @@ const products = {
           user: "pilaresparaofoco",
           title: "Os 6 Pilares Para o Foco + Bônus",
           value: "29,90",
+          parcel: "ou 5x de R$ 6,53",
           link: "https://kiwify.app/ahvhZ7q?afid=RKGoS1gA",
         },
         {
@@ -1029,6 +1112,7 @@ const products = {
           title:
             "Vencendo a ansiedade - um guia prático para recuperar sua paz interior",
           value: "19,90",
+          parcel: "ou 4x de R$ 5,38",
           link: "https://pay.kiwify.com.br/XQkdL1y?afid=KXAxoqqU",
         },
         {
@@ -1039,6 +1123,7 @@ const products = {
           user: "euagradecendo",
           title: "MANUAL DA GRATIDÃO + 12 Bônus",
           value: "47,90",
+          parcel: "ou 9x de R$ 6,15",
           link: "https://kiwify.app/vYKlIyK?afid=ZrLZA6b9",
         },
         {
@@ -1049,6 +1134,7 @@ const products = {
           user: "Júnior Araujo",
           title: "Ansiedade x Deus",
           value: "19,90",
+          parcel: "ou 4x de R$ 5,35",
           link: "https://pay.kiwify.com.br/Yvp5CiR?afid=QZlgvBbg",
         },
         {
@@ -1059,6 +1145,7 @@ const products = {
           user: "",
           title: "Hackeando a Ansiedade",
           value: "57,90",
+          parcel: "ou 5x de R$ 12,64",
           link: "https://pay.kiwify.com.br/eRn3r8j?afid=88QP6EXv",
         },
         {
@@ -1069,6 +1156,7 @@ const products = {
           user: "BIBLIOTECA EXPERT",
           title: "Mais de 1300 livros digitais + bônus de 200 áudios books",
           value: "47,90",
+          parcel: "ou 11x de R$ 5,17",
           link: "https://pay.kiwify.com.br/qL5Galu?afid=zTT8JXdt",
         },
         {
@@ -1079,6 +1167,7 @@ const products = {
           user: "",
           title: "Desafio Você Irreconhecível",
           value: "197,00",
+          parcel: "ou 10x de R$ 23,08",
           link: "https://pay.kiwify.com.br/XE8TnJa?afid=Oqu2ntZf",
         },
         {
@@ -1089,6 +1178,7 @@ const products = {
           user: "",
           title: "MANUAL DA MULHER SÁBIA",
           value: "19,90",
+          parcel: "ou 3x de R$ 7,03",
           link: "https://pay.kiwify.com.br/toTZHNc?afid=OLsrEpDQ",
         },
         {
@@ -1099,6 +1189,7 @@ const products = {
           user: "charleshspurgeon",
           title: "Cural da Alma",
           value: "35,00",
+          parcel: "ou 7x de R$ 5,62",
           link: "https://kiwify.app/1e7gOSP?afid=3hKdNZKp",
         },
         {
@@ -1109,6 +1200,7 @@ const products = {
           user: "reconquisteem7dias",
           title: "O Segredo da Reconquista",
           value: "47,00",
+          parcel: "ou 11x de R$ 5,08",
           link: "https://kiwify.app/LREYDfo?afid=TEONT6XZ",
         },
         {
@@ -1119,6 +1211,7 @@ const products = {
           user: "",
           title: "MÉTODO CAVALEIRO BRANCO",
           value: "19,90",
+          parcel: "ou 9x de R$ 5,12",
           link: "https://kiwify.app/ycEE84U?afid=TlFcWIeU",
         },
         {
@@ -1129,11 +1222,10 @@ const products = {
           user: "sociedadepsicanalitica",
           title: "Curso - PSICANÁLISE EXPERIENCE",
           value: "197,00",
+          parcel: "ou 12x de R$ 19,78",
           link: "https://kiwify.app/ahUCuk6?afid=dmoiK3xG",
         },
       ],
-
-
     },
   ],
 };

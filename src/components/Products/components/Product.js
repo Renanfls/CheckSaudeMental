@@ -5,6 +5,7 @@ function Projects({
   title,
   link,
   value,
+  parcel,
 }) {
   return (
     <section className="container-product rounded-4 p-3 mb-4 d-flex flex-column shadow">
@@ -16,7 +17,8 @@ function Projects({
       <h5 className="title-product fw-medium my-3 h-100 text-lowercase text-center">
         {title}
       </h5>
-      <p className="price fw-bold fs-5 text-center">R$ {value}</p>
+      <p className="price fw-bold fs-5 text-center mb-0">R$ {value}</p>
+      <small className="price-parcel text-center mb-3">{parcel}</small>
       <a
         href={link}
         target="_blank"

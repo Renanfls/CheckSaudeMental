@@ -16,9 +16,7 @@ export default function SectionVideo() {
         <span className="text-uppercase">Sobre nós</span>
         <h2 className="fw-bold mt-2">Check.SaúdeMental</h2>
         <p>
-          Nosso objetivo é Disponibilizar uma variedade de produtos digitais e
-          físicos, cuidadosamente selecionados para promover o seu bem-estar
-          emocional e digital.
+          Nosso objetivo é melhorar sua saúde mental e recuperar seu equilíbrio com os nossos serviços. <br/> Nossa missão é restaurar sua felicidade e bem-estar. Embarque nessa jornada conosco e liberte-se de traumas e dores emocionais. Vamos te ajudar a melhorar seus relacionamentos pessoais e a lidar com o estresse e a ansiedade. Assim como, recuperar a confiança e a autoestima. E ainda, a lidar com a pressão no trabalho. Juntos, vamos aprender a gerenciar as suas emoções.
         </p>
         <small>
           "Sempre tem alguém que não vê o seu valor. Não permita que essa pessoa

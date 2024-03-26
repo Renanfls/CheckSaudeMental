@@ -13,7 +13,7 @@
 
 .container-product .photos {
   object-fit: contain;
-  height: 200px;
+  max-height: 115px;
 }
 
 .container-product .logo {

@@ -29,17 +29,14 @@ export default function SectionProducts() {
           </svg>
         </Link>
       </div>
-      {/* HOTMART */}
+      {/* LIST ALL HIGHLIGHT */}
       <Carousel fade className="carousel-container my-5 d-block d-md-none">
         {products.highlight.map((product) =>
-          product.hotmart.map((productHotmart) => (
-            <Carousel.Item
-              key={productHotmart.id.toString}
-              className="d-flex justify-content-center"
-            >
+          product.all.map((product) => (
+            <Carousel.Item key={product.id.toString} className="p-3">
               <Products
                 className="d-flex justify-content-center"
-                {...productHotmart}
+                {...product}
               ></Products>
             </Carousel.Item>
           ))
@@ -47,69 +44,17 @@ export default function SectionProducts() {
       </Carousel>
       {products.highlight.map((product) => (
         <div
-          key={product.hotmart.indexOf}
+          key={product.all.indexOf}
           className="container-fluid justify-content-center flex-wrap gap-3 d-none d-md-flex"
         >
-          {product.hotmart.map((productHotmart) => (
-            <Products {...productHotmart}></Products>
-          ))}
-        </div>
-      ))}
-      {/* EDUZZ */}
-      <Carousel fade className="carousel-container my-5 d-block d-md-none">
-        {products.highlight.map((product) =>
-          product.eduzz.map((productEduzz) => (
-            <Carousel.Item
-              key={productEduzz.id.toString}
-              className="d-flex justify-content-center"
-            >
-              <Products
-                className="d-flex justify-content-center"
-                {...productEduzz}
-              ></Products>
-            </Carousel.Item>
-          ))
-        )}
-      </Carousel>
-      {products.highlight.map((product) => (
-        <div
-          key={product.eduzz.indexOf}
-          className="container-fluid justify-content-center flex-wrap gap-3 d-none d-md-flex"
-        >
-          {product.eduzz.map((productEduzz) => (
-            <Products {...productEduzz}></Products>
-          ))}
-        </div>
-      ))}
-      {/* KIWIFY */}
-      <Carousel fade className="carousel-container my-5 d-block d-md-none">
-        {products.highlight.map((product) =>
-          product.hotmart.map((productHotmart) => (
-            <Carousel.Item
-              key={productHotmart.id.toString}
-              className="d-flex justify-content-center"
-            >
-              <Products
-                className="d-flex justify-content-center"
-                {...productHotmart}
-              ></Products>
-            </Carousel.Item>
-          ))
-        )}
-      </Carousel>
-      {products.highlight.map((product) => (
-        <div
-          key={product.kiwify.indexOf}
-          className="container-fluid justify-content-center flex-wrap gap-3 d-none d-md-flex"
-        >
-          {product.kiwify.map((productkiwify) => (
-            <Products {...productkiwify}></Products>
+          {product.all.map((product) => (
+            <Products {...product}></Products>
           ))}
         </div>
       ))}
       <Link
         to="/produtos"
-        className="link py-2 px-3 rounded-5 d-inline-flex align-items-center gap-5 ms-4 ms-md-5"
+        className="link py-2 px-3 mt-4 rounded-5 d-inline-flex align-items-center gap-5"
       >
         Ver todos os produtos
         <svg

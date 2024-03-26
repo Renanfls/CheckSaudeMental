@@ -14,10 +14,7 @@ export default function SectionAllProducts() {
       <Carousel fade className="carousel-container my-5 d-block d-md-none">
         {products.list.map((product) =>
           product.all.map((productAll) => (
-            <Carousel.Item
-              key={productAll.id.toString}
-              className="d-flex justify-content-center"
-            >
+            <Carousel.Item key={productAll.id.toString} className="p-3">
               <Products
                 className="d-flex justify-content-center"
                 {...productAll}
