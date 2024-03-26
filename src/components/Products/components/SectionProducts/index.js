@@ -12,7 +12,7 @@ export default function SectionProducts() {
         <h2 className="fw-bold">Em destaque</h2>
         <Link
           to="/produtos"
-          className="link py-2 px-3 rounded-5 d-inline-flex align-items-center gap-5 mt-3 mt-md-0"
+          className="link py-2 px-3 rounded-5 d-none d-md-inline-flex align-items-center gap-5 mt-3 mt-md-0"
         >
           Ver todos os produtos
           <svg
@@ -30,7 +30,7 @@ export default function SectionProducts() {
         </Link>
       </div>
       {/* LIST ALL HIGHLIGHT */}
-      <Carousel fade className="carousel-container my-5 d-block d-md-none">
+      <Carousel fade className="carousel-container my-md-5 d-block d-md-none">
         {products.highlight.map((product) =>
           product.all.map((product) => (
             <Carousel.Item key={product.id.toString} className="p-3">
@@ -54,7 +54,7 @@ export default function SectionProducts() {
       ))}
       <Link
         to="/produtos"
-        className="link py-2 px-3 mt-4 rounded-5 d-inline-flex align-items-center gap-5"
+        className="link py-2 px-3 mb-5 rounded-5 d-inline-flex align-items-center gap-5"
       >
         Ver todos os produtos
         <svg
